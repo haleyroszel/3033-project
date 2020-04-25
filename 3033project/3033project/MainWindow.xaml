@@ -5,55 +5,129 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3033project"
         mc:Ignorable="d"
-        Title="MainWindow" Height="528.277" Width="800">
-    <Grid>
-        <Grid.Background>
-            <ImageBrush ImageSource="https://wallpaperaccess.com/full/1236351.jpg"/>
-        </Grid.Background>
-        <TabControl HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="797">
-            <TabItem Header="Start">
-                <Grid Background="#FFE5E5E5" Margin="0,0,0,-458"/>
-            </TabItem>
-            <TabItem Header="Question 1">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 2">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 3">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 4">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 5">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 6">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 7">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 8">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 9">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Question 10">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="Results">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-        </TabControl>
-        <Label Content="Which Animal Crossing &#xD;&#xA;   Character are you?" HorizontalAlignment="Left" Margin="210,89,0,0" VerticalAlignment="Top" Height="116" Width="393" FontFamily="Hobo Std" Opacity="0.75" FontSize="36" Foreground="#FFCFA942" RenderTransformOrigin="0,0">
-            <Label.Effect>
-                <DropShadowEffect Color="#FF8D6436"/>
-            </Label.Effect>
-        </Label>
-        <Button Content="Touch to Start..." HorizontalAlignment="Left" Margin="252,210,0,0" VerticalAlignment="Top" Width="279" Height="66" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFD4A922" FontWeight="Bold" FontSize="16"/>
+        Title="Which Animal Crossing Character are you?" Height="528.277" Width="800" FontFamily="HP Simplified Light">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Margin="2,5">
+            <Button Name="btnPreviousTab" Click="btnPreviousTab_Click" Height="32" Width="76" FontFamily="HP Simplified">Prev.</Button>
+            <Button Name="btnNextTab" Click="btnNextTab_Click" Width="71" Height="35" FontFamily="HP Simplified">Next</Button>
+        </StackPanel>
+        <TabControl Name="Quiz">
+            <TabItem Header="Question 1" FontFamily="HP Simplified">
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="Pick a piece of fruit" Height="86" Width="340" FontSize="36"/>
+                </Label>
 
-    </Grid>
+            </TabItem>
+            <TabItem Header="Question 2" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="What's your favorite outdoor activity" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 3" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="What's your favorite KK Slider Song" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 4" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="Pick a furniture set" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 5" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="Who is your favoirte City worker?" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 6" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="What color is your roof?" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 7" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="What would you say your style is" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 8" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="What's your favorite consilation?" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 9" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="What would you donate to the museum" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Question 10" FontFamily="HP Simplified" >
+                <TabItem.Background>
+                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                </TabItem.Background>
+                <Label Margin="0,2,0,-0.2" >
+                    <Label.Background>
+                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
+                    </Label.Background>
+                    <Label Content="Pick a golden tool" Height="86" Width="642" FontSize="36"/>
+                </Label>
+            </TabItem>
+            <TabItem Header="Results" FontFamily="HP Simplified" >
+                
+            </TabItem>
+           
+
+        </TabControl>
+    </DockPanel>
 </Window>

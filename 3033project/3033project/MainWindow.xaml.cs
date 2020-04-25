@@ -24,5 +24,23 @@ namespace _3033project
         {
             InitializeComponent();
         }
+
+        private void btnPreviousTab_Click(object sender, RoutedEventArgs e)
+        {
+            //https://www.wpf-tutorial.com/tabcontrol/using-the-tabcontrol/
+            int newIndex = Quiz.SelectedIndex - 1;
+            if (newIndex < 0)
+                newIndex = Quiz.Items.Count - 1;
+            Quiz.SelectedIndex = newIndex;
+        }
+
+        private void btnNextTab_Click(object sender, RoutedEventArgs e)
+        {
+        //https://www.wpf-tutorial.com/tabcontrol/using-the-tabcontrol/
+            int newIndex = Quiz.SelectedIndex + 1;
+            if (newIndex >= Quiz.Items.Count)
+                newIndex = 0;
+            Quiz.SelectedIndex = newIndex;
+        }
     }
 }
