@@ -123,7 +123,7 @@ namespace _3033project
 
         private void Button_Click_16(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("this character");
+            MessageBox.Show(Res.Results());
         }
 
         
