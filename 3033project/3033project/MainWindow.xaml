@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3033project"
         mc:Ignorable="d"
-        Title="Which Animal Crossing Character are you?" Height="528.277" Width="800" FontFamily="HP Simplified Light">
+        Title="Which Animal Crossing Character are you?" Height="1076.239" Width="997.567" FontFamily="HP Simplified Light">
     <Grid Margin="0,0,4,-0.8">
         <Grid.Background>
             <ImageBrush ImageSource="https://wallpaperaccess.com/full/1236351.jpg"/>
@@ -97,7 +97,6 @@
         </Button>
         <Button Content="Submit" HorizontalAlignment="Left" Margin="432,501,0,0" VerticalAlignment="Top" Width="109" Height="38" Click="Button_Click_16"/>
         <Label Content="You are:" HorizontalAlignment="Left" Margin="237,619,0,0" VerticalAlignment="Top" FontFamily="HP Simplified" FontSize="18"/>
-        <ListBox x:Name="lstresult" HorizontalAlignment="Left" Height="144" Margin="405,619,0,0" VerticalAlignment="Top" Width="193" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="22" FontFamily="HP Simplified Light" SelectionChanged="Lstresult_SelectionChanged"/>
 
     </Grid>
 </Window>
