@@ -6,128 +6,98 @@
         xmlns:local="clr-namespace:_3033project"
         mc:Ignorable="d"
         Title="Which Animal Crossing Character are you?" Height="528.277" Width="800" FontFamily="HP Simplified Light">
-    <DockPanel>
-        <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" Margin="2,5">
-            <Button Name="btnPreviousTab" Click="btnPreviousTab_Click" Height="32" Width="76" FontFamily="HP Simplified">Prev.</Button>
-            <Button Name="btnNextTab" Click="btnNextTab_Click" Width="71" Height="35" FontFamily="HP Simplified">Next</Button>
-        </StackPanel>
-        <TabControl Name="Quiz">
-            <TabItem Header="Question 1" FontFamily="HP Simplified">
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="Pick a piece of fruit" Height="86" Width="340" FontSize="36"/>
-                </Label>
+    <Grid Margin="0,0,4,-0.8">
+        <Grid.Background>
+            <ImageBrush ImageSource="https://wallpaperaccess.com/full/1236351.jpg"/>
+        </Grid.Background>
+        <Label Content="What Animal Crossing Villager are you?" HorizontalAlignment="Left" Margin="209,10,0,0" VerticalAlignment="Top" Height="66" Width="358" FontSize="22" FontFamily="HP Simplified"/>
+        <Label Content="Pick a fruit" HorizontalAlignment="Left" Margin="102,101,0,0" VerticalAlignment="Top" Width="103" Height="42" FontFamily="HP Simplified Light" FontSize="16"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="258,101,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="https://www.models-resource.com/resources/big_icons/36/35108.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="417,101,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/38e2507f-3431-4281-99dc-cccaf8082374/db8hq9j-e34d7c60-6679-4aa4-bb9f-e197978942d4.png/v1/fill/w_1024,h_1093,strp/animal_crossing_peach_render_by_smolkero_db8hq9j-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA5MyIsInBhdGgiOiJcL2ZcLzM4ZTI1MDdmLTM0MzEtNDI4MS05OWRjLWNjY2FmODA4MjM3NFwvZGI4aHE5ai1lMzRkN2M2MC02Njc5LTRhYTQtYmI5Zi1lMTk3OTc4OTQyZDQucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.iSBn9R6eBFeUk0ZWMcJTMAIZTZS590tcqg5Guqk3t0U" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="586,96,0,0" VerticalAlignment="Top" Width="111" Height="70" BorderBrush="{x:Null}" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="https://vignette.wikia.nocookie.net/nintendo/images/6/6c/Animal_Crossing_New_Horizons_-_Cherry.png/revision/latest?cb=20191221044234&amp;path-prefix=en" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="759,101,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush ImageSource="https://www.models-resource.com/resources/big_icons/36/35113.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Pick an activity" HorizontalAlignment="Left" Margin="102,197,0,0" VerticalAlignment="Top" Width="135" Height="42" FontFamily="HP Simplified Light" FontSize="16"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="258,197,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click_4">
+            <Button.Background>
+                <ImageBrush ImageSource="https://img.rankedboost.com/wp-content/uploads/2020/04/Fishing-Rod-Animal-Crossing-New-Horizons.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="417,197,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click_5">
+            <Button.Background>
+                <ImageBrush ImageSource="https://img.rankedboost.com/wp-content/uploads/2020/04/Net-Animal-Crossing-New-Horizons.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="586,192,0,0" VerticalAlignment="Top" Width="111" Height="70" BorderBrush="{x:Null}" Click="Button_Click_6">
+            <Button.Background>
+                <ImageBrush ImageSource="https://vignette.wikia.nocookie.net/animalcrossing/images/7/70/NH-Flimsy_watering_can.png/revision/latest/scale-to-width-down/340?cb=20200325181755" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="759,197,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click_7">
+            <Button.Background>
+                <ImageBrush ImageSource="https://vignette.wikia.nocookie.net/animalcrossing/images/2/23/NH-Golden_slingshot.png/revision/latest/scale-to-width-down/340?cb=20200326052101" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Pick a roof color" HorizontalAlignment="Left" Margin="102,285,0,0" VerticalAlignment="Top" Width="135" Height="41" FontFamily="HP Simplified Light" FontSize="16"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="258,285,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click_8">
+            <Button.Background>
+                <ImageBrush ImageSource="https://pbs.twimg.com/media/EROnzO8UEAAh3wJ.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="417,285,0,0" VerticalAlignment="Top" Width="94" Height="46" BorderBrush="{x:Null}" Click="Button_Click_9">
+            <Button.Background>
+                <ImageBrush ImageSource="https://pbs.twimg.com/media/EROnzsPVUAA0quH.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="586,280,0,0" VerticalAlignment="Top" Width="111" Height="70" BorderBrush="{x:Null}" Click="Button_Click_10">
+            <Button.Background>
+                <ImageBrush ImageSource="https://assets.primagames.com/media/images/news/animal-crossing-new-horizons-roof-colors.jpg" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="759,285,0,0" VerticalAlignment="Top" Width="94" Height="65" BorderBrush="{x:Null}" Click="Button_Click_11">
+            <Button.Background>
+                <ImageBrush ImageSource="https://cdn.vox-cdn.com/thumbor/lSld5HlSIlAeVIOTaGJ4inRMLl4=/0x0:1280x720/1200x800/filters:focal(538x258:742x462)/cdn.vox-cdn.com/uploads/chorus_image/image/66559540/ET9xPWyU0AUt99S.0.jpg" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Pick a city worker" HorizontalAlignment="Left" Margin="102,390,0,0" VerticalAlignment="Top" Width="150" Height="41" FontFamily="HP Simplified Light" FontSize="16"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="258,390,0,0" VerticalAlignment="Top" Width="94" Height="45" BorderBrush="{x:Null}" Click="Button_Click_12">
+            <Button.Background>
+                <ImageBrush ImageSource="https://vignette.wikia.nocookie.net/forsmash-community/images/7/72/Tom_Nook.png/revision/latest?cb=20191222013743" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="417,384,0,0" VerticalAlignment="Top" Width="94" Height="65" BorderBrush="{x:Null}" Click="Button_Click_13">
+            <Button.Background>
+                <ImageBrush ImageSource="https://img.pngio.com/isabelle-ssbu-smashwiki-the-super-smash-bros-wiki-isabelle-png-240_240.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="586,384,0,0" VerticalAlignment="Top" Width="111" Height="70" BorderBrush="{x:Null}" Click="Button_Click_14">
+            <Button.Background>
+                <ImageBrush ImageSource="https://nookipedia.com/w/images/thumb/7/7e/Blathers_NH_-_alt.png/225px-Blathers_NH_-_alt.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="759,390,0,0" VerticalAlignment="Top" Width="94" Height="64" BorderBrush="{x:Null}" Click="Button_Click_15">
+            <Button.Background>
+                <ImageBrush ImageSource="https://vignette.wikia.nocookie.net/animalcrossing/images/f/f1/Animalcrossingcityfo_102308_14218.png/revision/latest?cb=20140727180108" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="432,501,0,0" VerticalAlignment="Top" Width="109" Height="38" Click="Button_Click_16"/>
+        <Label Content="You are:" HorizontalAlignment="Left" Margin="237,619,0,0" VerticalAlignment="Top" FontFamily="HP Simplified" FontSize="18"/>
+        <ListBox x:Name="lstresult" HorizontalAlignment="Left" Height="144" Margin="405,619,0,0" VerticalAlignment="Top" Width="193" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="22" FontFamily="HP Simplified Light" SelectionChanged="Lstresult_SelectionChanged"/>
 
-            </TabItem>
-            <TabItem Header="Question 2" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="What's your favorite outdoor activity" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 3" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="What's your favorite KK Slider Song" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 4" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="Pick a furniture set" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 5" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="Who is your favoirte City worker?" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 6" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="What color is your roof?" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 7" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="What would you say your style is" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 8" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="What's your favorite consilation?" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 9" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="What would you donate to the museum" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Question 10" FontFamily="HP Simplified" >
-                <TabItem.Background>
-                    <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                </TabItem.Background>
-                <Label Margin="0,2,0,-0.2" >
-                    <Label.Background>
-                        <ImageBrush ImageSource="https://cdn.hipwallpaper.com/i/55/84/Q38jrT.png"/>
-                    </Label.Background>
-                    <Label Content="Pick a golden tool" Height="86" Width="642" FontSize="36"/>
-                </Label>
-            </TabItem>
-            <TabItem Header="Results" FontFamily="HP Simplified" >
-                
-            </TabItem>
-           
-
-        </TabControl>
-    </DockPanel>
+    </Grid>
 </Window>
